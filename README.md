@@ -1,45 +1,48 @@
-# Autism_Therapy_Prediction
+🧠 Autism Therapy Prediction System
+This project presents a Therapy Efficacy Model (TEM) developed to predict and enhance the effectiveness of therapy interventions for individuals with Autism Spectrum Disorder (ASD) using machine learning and deep learning techniques.
 
+🚀 Project Overview
+Predicts therapy outcomes for ABA, Speech Therapy, and Occupational Therapy.
 
-🔍 Project Overview
-Title: Autism Therapy Prediction Dashboard
-Tool Used: Microsoft Power BI
-Purpose: To visualize and analyze patient data related to autism therapy effectiveness across age, gender, and geography.
+Utilizes ensemble ML models: Random Forest, SVM, XGBoost.
 
-📊 Dashboard Highlights
-📌 Total Patients: Visual count of 225 patients involved in autism therapy programs.
-📈 Average Progress Score: Dynamic KPI card displaying the average therapy progress (7.04), helpful for tracking overall improvement trends.
-👨‍👩‍👧 Gender Distribution: Pie chart revealing that 79.56% of the patients are male, and 20.44% are female, emphasizing gender-based ASD prevalence.
-🗺️ Country-wise Diagnosis:
+Implements deep learning with LSTM for time-series therapy progression.
 
-Bar chart showing top countries by autism diagnoses (India, USA, UK, etc.).
+Supports explainable AI with SHAP, LIME, and LRP for transparent decision-making.
 
-India leads with 37 diagnosed cases, followed closely by the USA and UK.
+Provides interactive dashboards to monitor:
 
-🧠 Behavioral & Therapy Insights
-Follow Instruction Levels: Filters categorize patients by their ability to follow instructions — Yes, No, or Sometimes.
-Levels of ASD: Visual segmentation by severity levels — Level 1, Level 2, and Level 3.
-Age-wise Response Rates:
-Children aged 10–12 show the highest therapy response rates.
-Decreased response in ages 6–9 with slight improvement in younger children (below 6).
+Therapy progress vs. session count
 
-📅 Therapy Engagement Analysis
-Session-Based Progress:
-A bar graph illustrates the correlation between therapy sessions attended and total progress.
-Progress peaks between 11–13 sessions, suggesting optimal therapy frequency.
-Avg. Response by Total Sessions:
-Line chart shows diminishing response rate as sessions increase, highlighting early therapy responsiveness.
+Response rates by age and gender
 
-🧩 Interactivity & Filters
-Slicers: Interactive slicers for Country and Behavior allow customized views.
-Allows stakeholders to deep-dive into specific regions or behavioral patterns.
+Country-wise ASD diagnosis data
 
-🛠️ Technologies Used
-Power BI for data modeling, visualization, and report generation.
-DAX Measures for calculating average progress, response rates, and filtering behaviors.
+🛠️ Features
+📊 Data-Driven Insights: Visual analytics of patient demographics, therapy sessions, and outcomes.
 
-📁 Use Cases
-Used by therapists and health analysts to:
-Monitor patient progress.
-Allocate resources effectively.
-Identify patterns in therapy responsiveness.
+🔄 Adaptive Recommendations: Real-time therapy adjustment using reinforcement learning.
+
+🔐 Privacy & Security: Role-based access for doctors and caregivers.
+
+🧩 Personalized Therapy Plans: Based on behavioral, cognitive, and environmental data.
+
+🧰 Tech Stack
+Languages: Python
+
+ML Frameworks: scikit-learn, XGBoost, TensorFlow/Keras
+
+Visualization: Matplotlib, Seaborn, Power BI
+
+XAI Tools: SHAP, LIME
+
+Interface: Jupyter Notebook, Custom UI for clinicians and caregivers
+
+📸 Dashboard Preview
+
+📚 Research & Methodology
+Combines statistical learning with deep temporal models for better longitudinal analysis.
+
+Incorporates socio-demographic diversity to ensure robust and inclusive prediction accuracy.
+
+Inspired by recent academic works on AI in neurodevelopmental healthcare.

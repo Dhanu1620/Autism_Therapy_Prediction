@@ -3,6 +3,7 @@
 This project presents a Therapy Efficacy Model (TEM) developed to predict and enhance the effectiveness of therapy interventions for individuals with Autism Spectrum Disorder (ASD) using machine learning and deep learning techniques.
 
 🚀 Project Overview
+
 Predicts therapy outcomes for ABA, Speech Therapy, and Occupational Therapy.
 
 Utilizes ensemble ML models: Random Forest, SVM, XGBoost.
@@ -20,6 +21,7 @@ Response rates by age and gender
 Country-wise ASD diagnosis data
 
 🛠️ Features
+
 📊 Data-Driven Insights: Visual analytics of patient demographics, therapy sessions, and outcomes.
 
 🔄 Adaptive Recommendations: Real-time therapy adjustment using reinforcement learning.
@@ -29,6 +31,7 @@ Country-wise ASD diagnosis data
 🧩 Personalized Therapy Plans: Based on behavioral, cognitive, and environmental data.
 
 🧰 Tech Stack
+
 Languages: Python
 
 ML Frameworks: scikit-learn, XGBoost, TensorFlow/Keras
@@ -42,6 +45,7 @@ Interface: Jupyter Notebook, Custom UI for clinicians and caregivers
 📸 Dashboard Preview
 
 📚 Research & Methodology
+
 Combines statistical learning with deep temporal models for better longitudinal analysis.
 
 Incorporates socio-demographic diversity to ensure robust and inclusive prediction accuracy.

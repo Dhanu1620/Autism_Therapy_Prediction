@@ -1,4 +1,5 @@
 🧠 Autism Therapy Prediction System
+
 This project presents a Therapy Efficacy Model (TEM) developed to predict and enhance the effectiveness of therapy interventions for individuals with Autism Spectrum Disorder (ASD) using machine learning and deep learning techniques.
 
 🚀 Project Overview
